@@ -15,8 +15,26 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+  <!-- to get the google maps api -->
+ <!-- <script src = "http://maps.google.com/maps/api/js?key=YOUR_API_KEY_HERE" > </script> -->
+
+ <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAYrqTnRha6hOZqywzsz4fiRrcYEeN96vM",
+    authDomain: "fir-ionic-app-e677d.firebaseapp.com",
+    databaseURL: "https://fir-ionic-app-e677d.firebaseio.com",
+    projectId: "fir-ionic-app-e677d",
+    storageBucket: "fir-ionic-app-e677d.appspot.com",
+    messagingSenderId: "914685334325"
+  };
+  firebase.initializeApp(config);
+</script>
+
   <!-- cordova.js required for cordova apps (remove if not needed) -->
   <script src="cordova.js"></script>
+
 
   <!-- un-comment this code to enable service worker
   <script>
