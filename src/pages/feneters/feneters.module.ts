@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { FenetersPage } from './feneters';
 import { RestaurantsPage } from '../restaurants/restaurants';
 import { CommandesPage } from '../commandes/commandes';
+import { PlusPage } from '../plus/plus';
 import { LoginPage } from '../login/login';
 //import { RegisterPage } from '../register/register';
 
@@ -19,7 +20,8 @@ import { LoginPage } from '../login/login';
     IonicPageModule.forChild(FenetersPage),
     CommonModule,
     FormsModule,
-    RestaurantsPage,
+    PlusPage,
+    //RestaurantsPage,
     //CommandesPage,
     LoginPage,
     //RegisterPage

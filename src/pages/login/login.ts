@@ -25,7 +25,6 @@ export class LoginPage {
   this.afAuth.auth.signInWithEmailAndPassword(user.email, user.password).then(
     data => {
       console.log('got some data', this.afAuth.auth.currentUser);
-      this.showAlertMsg("Success ! You're logged in.");
     }
   )
   .catch(error => {

@@ -12,6 +12,7 @@ import { MyApp } from './app.component';
 
 import { RestaurantsPage } from '../pages/restaurants/restaurants';
 import { CommandesPage } from '../pages/commandes/commandes';
+import { PlusPage } from '../pages/plus/plus';
 import { FenetersPage } from '../pages/feneters/feneters';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
@@ -22,8 +23,9 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 @NgModule({
   declarations: [
     MyApp,
-    RestaurantsPage,  
-    CommandesPage,
+    //RestaurantsPage,  
+    //CommandesPage,
+    PlusPage,
     LoginPage,
 //    RegisterPage,
     FenetersPage
@@ -39,8 +41,9 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    RestaurantsPage,
-    CommandesPage,
+    PlusPage,
+    //RestaurantsPage,
+    //CommandesPage,
     LoginPage,
   //  RegisterPage,
     FenetersPage
